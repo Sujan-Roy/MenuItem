@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+     android:id="@+id/setting"
+     android:title="@string/app_nam"
+     android:icon="@mipmap/setting"
+     android:showAsAction="withText">
+    <menu>
+        <item
+          android:id="@+id/contact"
+            android:title="contact"
+            android:showAsAction="ifRoom"
+            />
+        <item
+            android:id="@+id/About"
+            android:title="About_Us"
+            android:showAsAction="always"
+            />
+        </menu>
+    </item>
+
+<item
+     android:id="@+id/home"
+     android:title="@string/app_am"
+     android:icon="@mipmap/home"
+     android:showAsAction="collapseActionView"
+    />
+</menu>
